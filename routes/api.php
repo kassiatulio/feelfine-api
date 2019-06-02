@@ -18,3 +18,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 Route::post('/activity', 'Activity\CreateActivityAction');
+Route::get('/activity', 'Activity\ListActivitiesAction');
